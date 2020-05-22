@@ -61,7 +61,7 @@
         https://baike.baidu.com/item/%E9%87%8C%E6%B0%8F%E6%9B%BF%E6%8D%A2%E5%8E%9F%E5%88%99
         https://www.iteye.com/blog/tonysmith-1105622
         https://blog.csdn.net/tjiyu/article/details/76551307
-        https://refactoringguru.cn/didp/principles/solid-principles/lsp
+        https://refactoringguru.cn/didp/principles/solid-principles/lsp（链接可能没办法直接打开，可以从 模板方法 模式中找到入口）
 
     遵从了里式替换原则，也就遵从了开放关闭原则。
 
