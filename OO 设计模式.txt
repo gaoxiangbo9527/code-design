@@ -20,7 +20,7 @@
                     }
 
                     public function next() {
-                        return new Number ($this->value + 1);
+                        return new Number($this->value + 1);
                     }
                 }
 
@@ -38,8 +38,7 @@
 
                     public static function load($id) {
                         list($id, $name) = DB::load_data('users', 'id', 'name');
-                        $user = new User($id, $name);
-                        return $user;
+                        return new User($id, $name);
                     }
                 }
 
@@ -54,7 +53,7 @@
 
             严格来说并不算是一种设计模式，而比较像是一种编程习惯。
             简单工厂的好处是，封装了可能会变化的部分（要创建的对象可能会增减），也可能会消除重复（可能有很多地方需要包含相同的创建逻辑）。
-            多数情况下 简单工厂是引入工厂方法或抽象工厂模式时的一个中间步骤。
+            多数情况下，简单工厂是引入工厂方法或抽象工厂模式时的一个中间步骤。
 
             简单工厂本身不是很强大，但是通过组合，可以把创建对象的任务委托给工厂对象。这时简单工厂已经非常接近策略模式了，如果真的需要切换简
             单工厂的对象，那其实就已经是策略模式了，只不过“算法”是用于创建对象的。
