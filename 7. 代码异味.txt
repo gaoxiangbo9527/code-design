@@ -1,10 +1,9 @@
 这里的内容不是单针对于 OO 的。
 
-
 《重构》 第3章
     这里没有列出，直接阅读该章节即可
 《Clean Code》 第17章
-    这里没有列出，见 PHP Best Practice 中 Clean Code 的笔记
+    这里没有列出，见 Best Practice 中 Clean Code 的笔记
 《深入 PHP》 第6章
     代码重复
         典型症状
